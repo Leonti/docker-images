@@ -10,7 +10,7 @@ RUN apk add --update openjdk8
 ENV JAVA_HOME /usr/lib/jvm/default-jvm
 
 # sbt
-ENV SBT_VERSION=1.0.4
+ENV SBT_VERSION=1.2.1
 ENV SBT_HOME=/usr/share/sbt
 
 WORKDIR /usr/share
